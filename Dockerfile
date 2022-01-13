@@ -104,3 +104,4 @@ RUN sudo apt install -y postgresql postgresql-contrib libpq-dev psmisc lsof expe
 USER gitpod
 RUN echo "rvm use 2.7.3" >> ~/.bashrc
 RUN echo "rvm_silence_path_mismatch_check_flag=1" >> ~/.rvmrc
+RUN echo 'export PATH="$PATH:$GITPOD_REPO_ROOT/bin"' >> ~/.bashrc
