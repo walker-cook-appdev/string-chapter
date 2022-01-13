@@ -1,4 +1,4 @@
-image: patrickmckernin/stringchapter
+image: patrickmckernin/stringchapter2022
 
 tasks:
   - init: bin/setup
