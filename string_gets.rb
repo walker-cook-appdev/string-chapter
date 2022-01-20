@@ -8,4 +8,4 @@
 
 name = gets.chomp
 
-p "Hello, " + name + "!"
+p "Hello, " + name.capitalize + "!"
